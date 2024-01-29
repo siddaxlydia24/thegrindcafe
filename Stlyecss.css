@@ -5,7 +5,7 @@
 
 
 .header {
-  background-color:lightblue ;
+  background-color:dark blue ;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -63,6 +63,7 @@
  h1 {
 letter-spacing: 5px;
 text-align: center;
+text-color: white
 }
 
 body {
