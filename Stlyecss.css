@@ -69,13 +69,16 @@ img {
 letter-spacing: 5px;
 text-align: center;
 text-color: black
+
 }
+
 h2 {
 letter-spacing: 5px;
 text-align: center;
-text-color: black
-font-size: 35px;
+text-color: black;
 font-family: "Georgia", serif;
+font-size: 5;
+
 }
 
 
