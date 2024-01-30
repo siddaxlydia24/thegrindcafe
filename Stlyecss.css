@@ -22,7 +22,7 @@
 
 img {
   float: left;
-  width: 250px;
+  width: 750px;
 }
 
 .row:after {
@@ -74,7 +74,7 @@ h2 {
 letter-spacing: 5px;
 text-align: center;
 text-color: black
-font-size: 20px;
+font-size: 5px;
 font-family: "Georgia", serif;
 }
 
