@@ -46,17 +46,16 @@ img {
 .topnav {
   overflow: hidden;
   background-color:navyblue ;
-  alignment: center 
 }
 
 
 .topnav a {
-  float: left;
+  float: center;
   display: block;
   color: black ;
   text-align: center;
   padding: 28px 30px;
-  text-decoration: white;
+  text-decoration: none;
 }
   
 .topnav a:hover {
