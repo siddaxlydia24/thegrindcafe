@@ -64,15 +64,7 @@ img {
   color: black;
 }
 
-.nav li {
-  display: inline-block;
-  font-size: 20px;
-  padding: 20px;
 
-  .navbar{
-    display: flex;
-    flex-direction: row;
-    vertical-align: middle;
 
  h1 {
 letter-spacing: 5px;
