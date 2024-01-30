@@ -50,7 +50,7 @@ img {
 
 
 .topnav a {
-  float: center;
+  float: left;
   display: block;
   color: black ;
   text-align: center;
