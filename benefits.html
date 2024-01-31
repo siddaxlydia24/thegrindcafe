@@ -2,46 +2,27 @@
 <html>
 <head>
 <style>
-  .slider {
-  width: 100%;
-  height: 510px;
-  position: relative;
+  div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
 }
 
-.slider img {
-  width: 100%;
-  height: 500px
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.slider img:first-child {
-  z-index: 1;
-}
-
-.slider img:nth-child(2) {
-  z-index: 0;
+div.scroll-container img {
+  padding: 10px;
 }
 </style>
+  
 </head>
 <body> 
+  <div class="scroll-container">
+  <img src="img_5terre.jpg" alt="Cinque Terre">
+  <img src="img_forest.jpg" alt="Forest">
+  <img src="img_lights.jpg" alt="Northern Lights">
+  <img src="img_mountains.jpg" alt="Mountains">
+</div>
+
   
-
-<h2> In order to satisfy and secure our valued employees, 
-  The Grind Café will offer competitive benefits and incentives 
-  to attract their loyalty. </h2>
-
-<div class="slider">
-  <img id="img-1" src="eximage1.png" alt="Image 1"/>
-  <img id="img-2" src="eximage2.jpg" alt="Image 2"/>
-  <img id="img-3" src="img-3.jpg" alt="Image 3"/>
-</div>
-<div class="navigation-button">
-  <span class="dot active" onclick="changeSlide(0)"></span>
-  <span class="dot" onclick="changeSlide(1)"></span>
-  <span class="dot" onclick="changeSlide(2)"></span>
-</div>
-
-</body>
+</body> 
 </html>
