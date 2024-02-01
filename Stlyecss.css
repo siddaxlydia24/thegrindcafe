@@ -159,3 +159,7 @@ input[type=submit]:hover {
 div.scroll-container img {
   padding: 10px;
 }
+
+ body {
+  background: #4f2016
+}
