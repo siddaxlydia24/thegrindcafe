@@ -181,7 +181,7 @@ div.scroll-container img {
 }
 
 .footer {
-   position: fixed;
+   position: bottom;
    left: 0;
    bottom: 0;
    width: 100%;
