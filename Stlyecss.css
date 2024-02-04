@@ -31,15 +31,6 @@ img {
   clear: both;
 }
 
-.footer {
-  background-color: white;
-  padding: 10px;
-  text-align: center;
-  position: fixed 
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
 
  (max-width: 600) {
   .column {
@@ -180,12 +171,20 @@ div.scroll-container img {
   padding: 10px;
 }
 
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
 .footer {
-   position: bottom;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: white;
-   color: white;
-   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: white;
+  text-align: center;
 }
