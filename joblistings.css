@@ -3,4 +3,7 @@ p    {color: red;}
 h6   {color: black;}
 h5   {color: black;}  
 
-h1 { 
+h1 { color: white; 
+    font-size: 40px; 
+    text-align: center; 
+   font: Helvetica"}
