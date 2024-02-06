@@ -1,4 +1,6 @@
-body {background-color: 4f2016;}
+body {
+  background: #4f2016
+}
 p    {color: red;}
 h6   {color: black;}
 h5   {color: black;}  
