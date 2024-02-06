@@ -1,1 +1,10 @@
-<P> color: white; font-size: 30px; float: right; text-align: left; font: times new roman"
+body {
+  background: #4f2016
+}
+p    {
+  color: white; 
+  font-size: 30px; 
+  float: right; 
+  text-align: left; 
+  font: times new roman
+}
