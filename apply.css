@@ -2,7 +2,8 @@
 letter-spacing: 5px;
 text-align: center;
 text-color: black
-
+Float: center; 
+  
 }
 
 h6 {
@@ -11,6 +12,7 @@ text-align: center;
 text-color: black;
 font-family: "Georgia", serif;
 font-size: 5;
+Float: center;
 
 }
 
