@@ -3,7 +3,7 @@ letter-spacing: 5px;
 text-align: center;
 text-color: black
 Float: center; 
-  
+font-size: 25px; 
 }
 
 h6 {
@@ -11,11 +11,14 @@ letter-spacing: 5px;
 text-align: center;
 text-color: black;
 font-family: "Georgia", serif;
-font-size: 5;
+font-size: 15;
 Float: center;
 
 }
 
+ body {
+  background: #aea6cd
+}
 
 
 
