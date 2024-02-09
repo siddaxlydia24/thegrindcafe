@@ -26,15 +26,18 @@ The Grind Cafe</h1>
     </div>
   </div>
 
-<div class="imgf">
-    <a href="../assets/img/swe/1.JPG" target="_blank"><img src="../assets/img/swe/1.JPG"></a>
-    <a href="../assets/img/swe/2.JPG" target="_blank"><img src="../assets/img/swe/2.JPG"></a>
-    <a href="../assets/img/swe/3.JPG" target="_blank"><img src="../assets/img/swe/3.JPG"></a>
-    <a href="../assets/img/swe/4.JPG" target="_blank"><img src="../assets/img/swe/4.JPG"></a>
-    <a href="../assets/img/swe/5.JPG" target="_blank"><img src="../assets/img/swe/5.JPG"></a>
-    <a href="../assets/img/swe/6.JPG" target="_blank"><img src="../assets/img/swe/6.JPG"></a>
-    <a href="../assets/img/swe/7.JPG" target="_blank"><img src="../assets/img/swe/7.JPG"></a>
-    </div>
-   
-</body>
+.imgf{                  /* PARENT */
+  overflow-x:auto;      /* Horiz scrollbar if needed */
+  font-size:0;          /* remove 4px margin from inner inline-block elements */
+  white-space: nowrap;  /* horiz-align inner child */
+}
+.imgf > * {             /* CHILDREN */
+  font-size: 1rem;      /* Reset to 1-relative-em */
+  display:inline-block; /* place next to each other */
+  vertical-align: top;  /* since using inline-block elements */
+  
+  /*demo only*/background:#f00;width:400px;height:100px;border-right:1px solid #fff;
+}
+
+   </body>
 </html>
