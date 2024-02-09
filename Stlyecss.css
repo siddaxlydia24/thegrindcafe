@@ -171,14 +171,6 @@ div.scroll-container img {
   padding-bottom: 2.5rem;    
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-  background-color: white;
-  text-align: center;
-} 
 
  .button {
   background-color: #b6615c;
@@ -192,5 +184,14 @@ div.scroll-container img {
   margin: 4px 2px;
   cursor: pointer;
    float: right; 
+
+   .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
 
 
