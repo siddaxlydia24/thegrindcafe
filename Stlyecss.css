@@ -192,3 +192,14 @@ div.scroll-container img {
   margin: 4px 2px;
   cursor: pointer;
    float: right; 
+
+   div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
