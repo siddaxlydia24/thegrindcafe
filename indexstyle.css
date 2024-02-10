@@ -90,24 +90,24 @@ background-color: #81957a
 
 /* Add a card effect for articles */
 .card1 {
-background-color: blue;
+background-color: #e49169;
 padding: 20px;
 margin-top: 20px;
-Color: #e49169;
+Color: white;
 }
 
 .card2 {
-background-color: blue;
+background-color: #b6615c;
 padding: 20px;
 margin-top: 20px;
-color: #b6615c;
+color: white;
 }
 
 .card3 {
-background-color: blue;
+background-color: pink;
 padding: 20px;
 margin-top: 20px;
-color: pink;
+color:white ;
 }
 
 /* Clear floats after the columns */
