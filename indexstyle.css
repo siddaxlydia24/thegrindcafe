@@ -35,12 +35,13 @@ background-color: #81957a
 
 /* Style the topnav links */
 .topnav a {
-  float: left;
+ float: left;
   display: block;
-  color: #f2f2f2;
+  color: white ;
   text-align: center;
-  padding: 14px 16px;
+  padding: 28px 30px;
   text-decoration: none;
+  font-family: "Georgia", serif;
 }
 
 /* Change color on hover */
