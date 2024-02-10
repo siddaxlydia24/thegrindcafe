@@ -68,16 +68,9 @@ background-color: #81957a
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn1 {   
+.leftcolumn {   
   float: left;
   width: 75%;
-  color: #e49169
-}
-
-.leftcolumn2 {   
-  float: left;
-  width: 75%;
-  color: #b6615c
 }
 
 /* Right column */
@@ -96,10 +89,25 @@ background-color: #81957a
 }
 
 /* Add a card effect for articles */
-.card {
-  background-color: blue;
-  padding: 20px;
-  margin-top: 20px;
+.card1 {
+background-color: blue;
+padding: 20px;
+margin-top: 20px;
+Color: #e49169;
+}
+
+.card2 {
+background-color: blue;
+padding: 20px;
+margin-top: 20px;
+color: #b6615c;
+}
+
+.card3 {
+background-color: blue;
+padding: 20px;
+margin-top: 20px;
+color: pink;
 }
 
 /* Clear floats after the columns */
