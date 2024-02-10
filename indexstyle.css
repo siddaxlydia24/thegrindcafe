@@ -46,7 +46,7 @@ background-color: #81957a
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: grey;
   color: black;
 }
 
