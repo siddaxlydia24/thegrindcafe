@@ -27,9 +27,7 @@ h1 { color: white;
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-  float: center;
-  height: 200px; 
-  width: 100%;
+  
 }
 
 /* Hide the images by default */
