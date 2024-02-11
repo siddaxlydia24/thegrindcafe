@@ -170,11 +170,12 @@ color:white ;
 
 .left, .right {
   width: 25%;
+     height:500;
 }
 
 .middle {
   width: 50%;
-     height: 500
+     height: 500;
 }
 
 /* Clear floats after the columns */
