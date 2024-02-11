@@ -22,3 +22,13 @@ h5 {
   font-family: "Playfair Display", serif;
   Float: center; 
 
+header {
+  background-color: white ;
+  padding: 5px;
+  text-align: left;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  Float: center; 
+}
+
+
