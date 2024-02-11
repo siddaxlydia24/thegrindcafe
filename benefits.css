@@ -13,22 +13,14 @@ letter-spacing: 5px;
 text-align: center;
 text-color:Black;
 font-family: "Georgia", serif;
-font-size: 5;
-
+font-size: 30px;
+Float: center; 
 }
 
 h5 {
- font-size: 35px;
+ font-size: 20px;
   font-family: "Playfair Display", serif;
   Float: center; 
 
-header {
-  background-color: white ;
-  padding: 5px;
-  text-align: left;
-  font-size: 35px;
-  font-family: "Playfair Display", serif;
-  Float: center; 
-}
 
 
