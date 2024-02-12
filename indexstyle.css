@@ -101,6 +101,7 @@ background-color: #81957a
   background-color: #aaa;
   width: 100%;
   padding: 20px;
+  text-alignment: center;
 }
 
 /* Add a card effect for articles */
