@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+html, body {
+     min-height: 100%;
+
 /* Create two unequal columns that floats next to each other */
 .column {
   float: left;
