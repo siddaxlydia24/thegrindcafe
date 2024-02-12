@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  padding: 10px;
+  padding: 0px;
 font-family: Arial, Helvetica, sans-serif;
  background: #4f2016
 
@@ -81,7 +81,7 @@ background-color: #81957a
   color: black;
 }
 
-/* Create two unequal columns that floats next to each other */
+/* Create three unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
   float: left;
@@ -93,14 +93,14 @@ background-color: #81957a
   float: left;
   width: 25%;
   background-color: #4f2016;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
-  padding: 25px;
+  padding: 20px;
 }
 
 /* Add a card effect for articles */
