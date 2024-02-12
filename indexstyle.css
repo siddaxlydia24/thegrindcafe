@@ -85,7 +85,7 @@ background-color: #81957a
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 70%;
+  width: 75%;
 }
 
 /* Right column */
@@ -100,7 +100,7 @@ background-color: #81957a
 .fakeimg {
   background-color: #aaa;
   width: 100%;
-  padding: 20px;
+  padding: 25px;
 }
 
 /* Add a card effect for articles */
@@ -141,7 +141,7 @@ color:white ;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
@@ -165,7 +165,7 @@ color:white ;
 .column {
   float: left;
   padding: 10px;
-  height: 400px; /* Should be removed. Only for demonstration */
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 .left, .right {
