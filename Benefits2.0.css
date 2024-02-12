@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+h2{
+  font-family: Serif;
+  font-size: 30;
+  
+  
+}
+
 .row {
   display: flex;
 }
