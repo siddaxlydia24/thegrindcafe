@@ -85,15 +85,15 @@ background-color: #81957a
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 75%;
+  width: 70%;
 }
 
 /* Right column */
 .rightcolumn {
-  float: right;
+  float: left;
   width: 25%;
   background-color: #4f2016;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 /* Fake image */
