@@ -11,10 +11,14 @@
 
 .left {
   width: 25%;
+  height: 100%;
+  position: fixed;
 }
 
 .right {
   width: 75%;
+  height: 100%;
+  position: absolute;
 }
 
 /* Clear floats after the columns */
