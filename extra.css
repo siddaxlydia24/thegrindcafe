@@ -1,7 +1,3 @@
-body {
-  background: #4f2016
-}
-
 
 .wrap {
   display: flex;
@@ -13,7 +9,7 @@ body {
 }
 
 .right {
-  background: green;
+  background: #4f2016,
   flex-basis: 60%;
   
   height: 100vh; 
