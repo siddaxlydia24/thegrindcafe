@@ -4,12 +4,12 @@
 
 .left {
   background: red;
-  flex-basis: 20%;
+  flex-basis: 40%;
 }
 
 .right {
   background: green;
-  flex-basis: 80%;
+  flex-basis: 60%;
   
   height: 100vh; 
   overflow: auto;
