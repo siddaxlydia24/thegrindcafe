@@ -1,18 +1,26 @@
 body {
   background: #4f2016
 }
-p    {
-  color: white; 
-  font-size: 20px; 
-  float: right; 
-  text-align: left; 
-  font: times new roman;
-  padding: 20px; 
+
+[flow], [sticky]{
+  flex: 1
 }
 
-img {
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
-  padding: 20px; 
+[sticky]{
+  background: salmon;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  margin-left: 50%;
+}
+
+[flow]{
+  height: 300vh;
+  width: 50%;
+  background: slateblue;
+}
+
+p{
+  height: 50vh
+}
 
