@@ -1,1 +1,16 @@
+.wrap {
+  display: flex;
+}
 
+.left {
+  background: red;
+  flex-basis: 20%;
+}
+
+.right {
+  background: green;
+  flex-basis: 80%;
+  
+  height: 100vh; 
+  overflow: auto;
+}
