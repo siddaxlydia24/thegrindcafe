@@ -21,12 +21,19 @@ background-color: #4f2016
 }
 
 
+h2 {
+letter-spacing: 5px;
+text-align: center;
+text-color: white;
+font-family: "Georgia", serif;
+font-size: 30px;
 
-h2 { 
-  font-color: white;
+}
 
-} 
-
-h5 { 
+h5 {
+ font-size: 25px;
+  font-family: "Playfair Display", serif;
+  Float: center; 
   font-color: white; 
-} 
+  
+}
